@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* table,th,td{
+            border: 2px solid black;
+        } */
+         table{
+            border: 3px solid blue;
+        }
+        th{
+            border: 4px solid rgb(112, 194, 112);
+        }
+        td{
+            border: 3px solid pink;
+        } 
+    </style>
+</head>
+<body>
+    <h1 style="color: rgb(177, 19, 19);">Learning Table Tag</h1>
+    <table>
+        <tr>
+            <th>Sr.No</th>
+            <th>Name</th>
+             <th>Course</th>
+             <th>Location</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Meghana M</td>
+            <td>HTML</td>
+            <td>Brahmavar</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Meghana</td>
+            <td>CSS</td>
+            <td>Brahmavar</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Megha</td>
+            <td>JS</td>
+            <td>Brahmavar</td>
+        </tr>
+    </table>
+</body>
+</html>
